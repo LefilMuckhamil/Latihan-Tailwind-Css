@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,7 +20,7 @@
           <li>
             <a
               class="m-4 text-lg font-bold text-white transform hover:text-blue-400 transition duration-700 ease-in-out hover:bg-slate-300 rounded-2xl py-2 px-2"
-              href="#"
+              href="#product"
               >Product</a
             >
           </li>
@@ -53,25 +53,74 @@
       <section
         class="bg-green-400 flex justify-between items-center py-16 px-8"
       >
-        <div>
-          <p class="text-4xl text-center font-bold text-gray-800">
-            PERKENALKAN NAMA SAYA
-          </p>
+        <div class="ml-20">
+          <p class="text-4xl font-bold text-gray-800">PERKENALKAN NAMA SAYA</p>
           <p class="text-6xl font-extrabold text-blue-600 mt-2">
             LEFIL MUCKHAMIL
           </p>
-          <p class="text-2xl text-center text-gray-600 mt-4">
-            FRONT-END DEVELOPER
+          <p class="text-2xl text-gray-600 mt-4">FRONT-END DEVELOPER</p>
+          <p class="text-2xl text-gray-600 mt-4">
+            TUNGGU AKU DALAM 3 ATAU 4 BULAN AKU AKAN
+          </p>
+          <p class="text-2xl text-gray-600 mt-4 border-b-2">
+            MENGUASAI FRONT-END JUNIOR DEVELOPER
           </p>
         </div>
 
         <div
-          class="w-1/2 h-96 rounded-lg shadow-[8px_8px_16px_rgba(0,0,0,0.6)] bg-cover bg-center"
-          style="background-image: url(../image/full-1.jpg)"
+          class="w-1/4 h-96 rounded-lg shadow-[8px_8px_16px_rgba(0,0,0,0.6)] bg-cover bg-center mr-20"
+          style="background-image: url('../image/full-1.jpg')"
         ></div>
       </section>
 
-      <section></section>
+      <section id="product" class="py-16 bg-gray-600">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold text-center mb-10">THE PRODUCT</h2>
+
+          <div class="flex flex-wrap justify-center gap-8">
+            <div
+              class="max-w-sm bg-white rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <img
+                class="w-full h-48 object-cover"
+                src="../image/full-1.jpg"
+                alt="NU MILK TEA"
+              />
+
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl text-center">Judul Kartu 1</div>
+              </div>
+            </div>
+
+            <div
+              class="max-w-sm bg-white rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <img
+                class="w-full h-48 object-cover"
+                src="../image/full-1.jpg"
+                alt="NU MILK TEA"
+              />
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl text-center">Judul Kartu 2</div>
+              </div>
+            </div>
+
+            <div
+              class="max-w-sm bg-white rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <img
+                class="w-full h-48 object-cover"
+                src="../image/full-1.jpg"
+                alt="NU MILK TEA"
+              />
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl text-center">Judul Kartu 3</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <script src="javascript.js"></script>
   </body>
 </html>

@@ -1,0 +1,24 @@
+# Abaikan folder dependensi Node.js
+# Ini adalah yang paling penting dan penyebab utama proyek jadi berat.
+node_modules/
+
+# Abaikan file CSS yang dihasilkan oleh Tailwind
+# Karena file ini bisa dibuat ulang kapan saja dari input.css
+output.css
+
+# Abaikan folder hasil build/produksi (nama umum)
+/dist
+/build
+
+# Abaikan file log
+*.log
+
+# Abaikan file environment (berisi password, API key, dll.)
+# SANGAT PENTING untuk keamanan.
+.env
+.env.local
+.env.*.local
+
+# Abaikan file cache dari beberapa editor atau OS
+.DS_Store
+.cache/
